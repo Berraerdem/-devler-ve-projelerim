@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  
+  }
+  body{
+    background-image: url(foto.jpg.webp);
+  }
+  .kapsa{
+    width: 1023px;
+    margin: 0px auto;
+  }
+  .kapsa img{
+      width: 1025px;
+      height: 400px;
+      display: block;
+  }
+  .orta{
+    background-color: orange;
+  }
+  .sol{
+      width: 240px;
+      float: left;
+     
+  }
+  .sol_menu{
+      background-color: teal;
+      width: 240px;
+      height: 350px;
+  }
+  .sol_menu ul li a{
+      display: block;
+      padding: 15px;
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      transition: all 1s ease;
+  }
+  .sol_menu ul li a:hover{
+      background-color: orange;
+      border-right: 10px solid orangered;
+      color: black;
+      padding-left: 20px;
+  }
+  .sag{
+      width: 783px;
+      float: left;
+  }
+  .temizle{
+      clear: both;
+  }
+  .ust_menu{
+      display: block;
+      height: 50px;
+      width: 720;
+  }
+  .ust_menu ul li{
+     float: left; 
+  }
+  .ust_menu ul li a{
+      display: block;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      width: 258px;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      border-right: 1px solid black;
+      border-radius: 25px;
+      transition: all is ease;
+  }
+  .ust_menu ul li a:hover{
+      color: black;
+      background-color: orangered;
+  }
+  .icerik{
+      background-color: orange;
+      padding: 20px;
+  }
+  h1{
+      text-align: center;
+      margin: 60px 0px;
+  }
+  .footer{
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: white;
+      background-color: black;
+  }
